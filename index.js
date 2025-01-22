@@ -7,7 +7,7 @@ output: process.stdout
 const promptUser = () => {
 rl.question('Enter amount (INR): ', (input) => {
 if (input.toLowerCase() === 'exit') {
-console.log("Goodbye!");
+console.log("See you!");
 rl.close();
 return;
 }
